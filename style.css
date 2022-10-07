@@ -1,0 +1,61 @@
+.logo {
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5
+    
+}
+
+body {
+    height: 5000px;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+
+.products {
+  margin-top: 320px;    
+}
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    color:red
+}
+
+
+
+.card {
+    margin-bottom: 50px;
+    
+}
+
+img{
+    max-height: 260px
+}
+
+.card {
+    position: relative
+}
+
+.offer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    height: 100px;
+    width: 60px;
+    text-align: center;
+    z-index: 3
+}
+
+.imgone {
+    transform: rotateY(20deg)
+}
